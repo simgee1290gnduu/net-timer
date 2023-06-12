@@ -1,11 +1,8 @@
 # net-timerm
- C# Timer ve DateTimePicker denetimini kullanarak belirtilen saat, dakika ve saniyede bir uyarı sesi veren örneği oluşturacağız
- Örneğimizde DateTimePicker , 2 adet Button, 1 adet Timer ve Label denetimlerini kullanacağız.
-Formumuzu oluşturduktan sonra dateTimePicker1 denetiminin Properties penceresinden Format özelliğini  ayarlıyoruz.
-SoundPlayer sınıfını kullanabilmek için namespace’ i ekleyelim
-using System.Media;
-Ses dosyasını çalmak için kullanacağımız player nesnemizi global olarak tanımlayalım.
-SoundPlayer player = new SoundPlayer();
-Alarm Kur butonu için kodlarımızı yazalım
-Timer1 üzerinde çift tıklayarak Timer1_Tick olayına kodlarımızı yazalım.
-durdur  butonu ve  form_load  olayı için kodarımızı ayarlıyoruz 
+ C# Timer ve DateTimePicker denetimini kullanarak  belirtilen saat  saat ,dakika ve saniyede bir uyarı veren  proje olustuacağım.
+ projeyi  datetimepicker ,2 adet button ş1 adet timer ve label denetiminde kulanacağız.
+ date time picker  formunu ayarlayark istediğiğimiz saate alarmın çalışmasını sağlayacağım.
+ soud player   ekelme ve kodunu oluşturduktan sonra hangi ses ile alarmın çalmasını istiyorsak ona göre düzenlemiş oluyorum.
+ alarm kur  kodlarını yazıp  timer üzerinden kodlarımızı yazıp ayarlanan saate ayarlanan ses ile alarmı çalıştıracağım.
+ durdur  butonu için kodlarımızı yazıp alarımın istediğimiz saate durdurabiliriz .
+ bu projenin amacı  zaman kavarmını istediğiğmiz gibi ayarlayıp o saatlerde ekledğiği sesler ile çalışmasını sağlıyorum.
